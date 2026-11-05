@@ -1,0 +1,16 @@
+.maxWidthChat {
+  max-width: 750px;
+}
+.groupInput::placeholder {
+  color: #adb5bd !important;
+  opacity: 1 !important;
+}
+.uploadedImage {
+  max-height: 80px;
+  object-fit: "cover";
+}
+.removeImageBtn {
+  width: 20px;
+  height: 20px;
+  transform: "translate(30%, -30%)";
+}

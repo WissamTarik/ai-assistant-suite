@@ -1,0 +1,22 @@
+.botMessage {
+  background-color: var(--bs-tertiary-bg);
+  border-left: 4px solid var(--bs-primary);
+}
+
+.userMessage {
+  background-color: transparent;
+}
+
+.sender {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.uploadedImage {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: "cover";
+}
+.textStyle{
+  white-space: pre-wrap;
+}

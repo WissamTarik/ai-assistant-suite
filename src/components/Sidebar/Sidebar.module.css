@@ -1,0 +1,26 @@
+.logo {
+  width: 1.875rem;
+}
+
+.sidebarFixedWidth {
+  width: 260px;
+  min-width: 260px;
+  flex-shrink: 0;
+}
+
+.sidebarWrapper {
+  background-color: var(--bs-body-tertiary-bg);
+  color: var(--bs-body-color);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.offcanvas {
+  max-width: 280px !important;
+}
+
+.mainContent {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  min-width: 0;
+  width: 100%;
+}
